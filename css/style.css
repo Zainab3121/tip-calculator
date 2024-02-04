@@ -7,6 +7,7 @@ body, html{
     justify-content: center;
     align-items: center;
     background-color:#DDDDDD;
+    
 }
 
 .error {
@@ -42,14 +43,14 @@ main h1 {
 
 main p {
     color: hsl(229, 8%, 60%);
-    font-size: 1rem;
+    font-size: 15px;
     margin-bottom: 8px;
 }
 
 .button {
     display: flex;
     justify-content: space-between;
-    width: 55%;
+    width: 60%;
 }
 
 .button button {
@@ -57,6 +58,7 @@ main p {
     background-color: white;
     cursor: pointer;
     color: hsl(229, 8%, 60%);
+    font-size: 11px;
 }
 
 section {
@@ -76,6 +78,7 @@ h3 {
     width: 94%;
     border: 1px dotted grey;
     outline: none; 
+    margin-bottom: 1rem;
 }
 
 section p {
