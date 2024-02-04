@@ -1,0 +1,114 @@
+* {
+    font-family: "Rubik", sans-serif
+}
+
+body, html{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background-color:#DDDDDD;
+    width: 100%;
+}
+
+.error {
+    background-color: red;
+    color: white;
+    display: none;
+    padding: 10px 12px;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.container {
+    padding: 1.5rem;
+    border-radius: 2%;
+    background-color: white;
+    width: 60%;
+}
+
+nav {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   width: 100%;
+   padding-bottom: 1rem;
+}
+
+main h1 {
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 8px;
+    color: black
+}
+
+main p {
+    color: hsl(229, 8%, 60%);
+    font-size: 1rem;
+    margin-bottom: 8px;
+}
+
+.button {
+    display: flex;
+    justify-content: space-between;
+    width: 55%;
+}
+
+.button button {
+    border: none;
+    background-color: white;
+    cursor: pointer;
+    color: hsl(229, 8%, 60%);
+}
+
+section {
+    background-color: #FFFFFF;
+    border-radius: 10%;
+}
+
+h3 {
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.input {
+    font-size: 15px;
+    padding: 8px;
+    border-radius: 6px;
+    width: 94%;
+    border: 1px dotted grey;
+    outline: none; 
+}
+
+section p {
+    text-align: center;
+    color: hsl(229, 8%, 60%);
+}
+
+.button2 {
+    margin-top: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+
+.calculate {
+    background-color: green;
+    border: none;
+    color: white;
+    font-size: 15px;
+    font-weight: 400;
+    padding: 5px 10px;  
+}
+
+.clear {
+    background-color: whitesmoke;
+    border: 1.5px solid green;
+    color: green;
+    font-size: 15px;
+    font-weight: 400;
+    padding: 5px 12px;  
+}
